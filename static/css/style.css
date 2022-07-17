@@ -1,0 +1,69 @@
+
+h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+    display: inline-block;
+    
+    
+}
+.head {
+    text-align: center;
+    font-style: italic;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    padding: 5px;
+    height: 100%;
+    background-image: url('/static/images/76889recommender-system-for-movie-recommendation.jpg');
+    float: ;
+}
+.card {
+    width: 30%;
+    height: 250px;
+    background-color:black;
+    border-radius: 2px;
+    display: inline-block;
+    box-shadow: 0px 4px 8px black;
+
+}
+.image img {
+    width: 100%;
+    height: 65%;
+    border-radius: 2px;
+}
+.heading {
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+
+}
+.form {
+    text-align: center;
+
+}
+.card1 {
+    display: inline-block;
+    background-color: black;
+    width: 30%;
+    height: 150px;
+    margin-left: 672px;
+    box-shadow: 0px 4px 8px black;
+}
+.result {
+    text-align: center;
+    font-style: italic;
+    color: red;
+
+}
+.heading2 {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}

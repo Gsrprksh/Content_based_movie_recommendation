@@ -1,0 +1,12 @@
+numpy>=1.9.2
+pandas>=0.19
+matplotlib>=1.4.3
+scikit-learn>=0.18
+flask==1.1.2
+jinja2==2.11.3
+scipy>=0.15.1
+markupsafe==1.1.1
+werkzeug==2.0.2
+seaborn==0.11.2
+gunicorn==20.1.0
+itsdangerous==2.0.1

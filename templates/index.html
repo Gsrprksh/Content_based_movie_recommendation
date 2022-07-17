@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommondation engine</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/style.css') }}">
+</head>
+<body>
+    <div class ='head'>
+    <h1>Recommondation Engine</h1>
+</div>
+<div class = 'main'>
+    <div class = 'card'>
+        <div class = 'image'>
+            <img src="/static/images/cover_Netflix2_1600px_web.jpg" alt="surya">
+        </div>
+        <div class = 'heading'>
+            <h2>Movie Recommondation System</h2>
+        </div>
+        <div class = form>
+            <form action="/recommond" method = 'POST'>
+                <label for="Enter_Movie_Name Here"></label><input type="text" name = 'Enter_Movie_Name Here' placeholder="Enter_Movie_Name Here">
+                <input type="submit" name = 'Click here'>
+            </form>
+
+        </div>
+         </div>
+        </div>
+        <div class = 'card1'>
+            <div class = 'heading2'>
+                <h3>Recommonded movies</h3>
+            </div>
+        <div class = 'result'>
+            {% for i in result %}
+            <table border="2">
+                <tr> {{ i }}</tr>
+                
+            </table>
+            {% endfor %}
+        </div>
+    </div>
+    
+</body>
+</html>
